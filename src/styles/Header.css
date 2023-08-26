@@ -1,0 +1,80 @@
+.App {
+  
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1446329813274-7c9036bd9a1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* .Header {
+    background: rgba(0, 0, 0, 0.15);
+    color: white;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+  } */
+  
+  header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: auto;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cta-button {
+    background-color: #FF9F00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .logo{
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 20px;
+    align-items: center;
+  
+  }
+  .tri{
+    left: 75px;
+    position: absolute;
+  }
+  
+  
+  
